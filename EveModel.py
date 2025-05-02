@@ -58,7 +58,7 @@ class EveModel(nn.Module):
                 print(f"Test #{i+1}")
                 print(f"Original : {original_text}")
                 print(f"Recovered: {recovered_text}")
-                print(f"Match    : {"Success" if match else "Fail"}\n")
+                print(f"Match    : {'Success' if match else 'Fail'}\n")
 
                 if match:
                     correct_sentences += 1
